@@ -1,7 +1,7 @@
 const thisVersion = chrome.runtime.getManifest().version;
 var newInstallOrUpdate = false;
 
-// Clear install & upgrade flags once they're been handled...
+// Clear install & upgrade flags once they've been handled...
 function clearInstallOrUpdate() {
     chrome.storage.sync.set({
         installedVersion: chrome.runtime.getManifest().version,

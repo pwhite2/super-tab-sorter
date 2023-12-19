@@ -2,7 +2,7 @@
 
 <img src="src/img/128.png" width="128px"/>
 
-"Super Tab Sorter" is a free and open-source Google Chrome extension for people who want user-customizable tab sorting and grouping. This is a more feature-rich version of [Simple Tab Sorter](https://github.com/pwhite2/simple-tab-sorter), designed to contain feature requests that might conflict with Simple Tab Sorter's design goals of remaining "**Simple**" and lightweight.
+"Super Tab Sorter" is a free and open-source Google Chrome extension for people who want user-customizable tab sorting and grouping. This is a feature-rich version of [Simple Tab Sorter](https://github.com/pwhite2/simple-tab-sorter), intended to accomodate feature requests that may conflict with Simple Tab Sorter's design goals of remaining "**Simple**" and lightweight.
 
 In addition to standard URL or title-based sorting, its "killer features" are:
 
@@ -12,7 +12,7 @@ In addition to standard URL or title-based sorting, its "killer features" are:
 4. Optional dedupe while sorting.
 5. User configurable sort behavior for handling tabs suspended by extensions derived from [The Great Suspender](https://github.com/greatsuspender/thegreatsuspender) (please review the User Guide under Options for configuration instructions).
 
-You can [submit a bug or a feature request](https://github.com/pwhite2/super-tab-sorter/issues/) if you have issues with, or suggestions for, this extension. Please refer to the **User Guide**, which can be found in this extension's Options page, before submitting bug or feature requests.
+Please [report bugs or suggest features](https://github.com/pwhite2/super-tab-sorter/issues/)  if you have problems or ideas for this extension. Please check the User Guide on the Options page before doing that.  Also, keep in mind that this extension sorts tabs, not manages them. Tab management is not what I do, so look for another extension if you need that.
 
 I can be contacted via the contact form at [peterwhite.net](https://peterwhite.net) for other inquiries.
 
