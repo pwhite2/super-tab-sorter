@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Peter White">
+    <title>Super Tab Sorter: Settings Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="container bg-light">
+        <h3 class="navbar-brand h3">Super Tab Sorter</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Settings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="userguide.html">User Guide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-md-auto col-lg-10 px-4">
+            <form id="settings-form" class="justify-content-start">
+                <div class="form-group">
+                    <h3 class="padded-title">Settings</h3>
+                </div>
+                <div class="setting-group">
+                    <div class="form-group">
+                        <label for="sortBy">Sort By:<br/>
+                        <select class="form-control" id="sortBy">
+                            <option value="title">Title</option>
+                            <option value="url">URL</option>
+                            <option value="custom">Custom</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="sortPinnedTabs" name="sortPinnedTabs">
+                        <label class="form-check-label" for="sortPinnedTabs">
+                            Sort pinned tabs
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dedupeTabs" name="dedupeTabs">
+                        <label class="form-check-label" for="dedupeTabs">
+                            Dedupe tabs (in current window)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="groupSuspendedTabs" name="groupSuspendedTabs">
+                        <label class="form-check-label" for="groupSuspendedTabs">
+                            Group suspended tabs together (if unchecked, enter Tab suspender extension id directly below)
+                        </label>
+                        <input type="text" class="form-control" id="tabSuspenderExtensionId" name="tabSuspenderExtensionId" value="">
+                    </div>
+                </div>
+                <div class="setting-group">
+                    <div class="form-group">
+                        <h5>These settings only apply to "Sort By: Custom"</h5>
+                        <label for="groupFrom">Group From Test:<br/>
+                        <select class="form-control" id="groupFrom">
+                            <option value="leftToRight">Left to Right</option>
+                            <option value="rightToLeft">Right to Left</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="preserveOrderWithinGroups" name="preserveOrderWithinGroups">
+                        <label class="form-check-label" for="preserveOrderWithinGroups">
+                            Preserve order within groups
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>&nbsp;</div>
+                </div>
+                <div class="row">
+                    <div class="col-auto">
+                        <button id="save" class="btn btn-primary" type="submit" disabled>Save</button>
+                    </div>
+                    <div class="col-auto">
+                        <div id="status" class="btn alert-success invisible">Settings Saved</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>&nbsp;</div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div>Brought to you by <a href="https://peterwhite.net" target="_blank">Peter White</a></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div>Icon design by Logan White</div>
+                    </div>
+                </div>
+            </form>
+            </main>
+        </div>
+    </div>
+    <script src="jquery-3.7.1.slim.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="options.js"></script>
+</body>
+
+</html>

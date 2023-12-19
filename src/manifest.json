@@ -1,0 +1,21 @@
+{
+    "name": "Super Tab Sorter",
+    "description": "Super Tab Sorter that allows user-defined tab group order.",
+    "version": "0.5.0",
+    "manifest_version": 3,
+    "permissions": ["tabs", "tabGroups", "storage"],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_title": "Super Tab Sorter",
+        "default_popup": "./popup.html",
+        "default_icons": {
+            "128": "img/128.png",
+            "48": "img/48.png",
+            "16": "img/16.png"
+        }
+    },
+    "options_page": "./options.html"
+}
