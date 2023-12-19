@@ -8,7 +8,7 @@ In addition to standard URL or title-based sorting, its "killer features" are:
 
 1. Respects Google Chrome's Tab Groups.
 2. "Sort By URL" sorts by domain, sub-sorts by host name.
-3. "Sort By Custom" is like "Sorty By URL", with the abillity to simply override the order of tabs manually.
+3. "Sort By Custom" is like "Sort By URL", with the ability to simply override the order of tabs manually.
 4. Optional dedupe while sorting.
 5. User configurable sort behavior for handling tabs suspended by extensions derived from [The Great Suspender](https://github.com/greatsuspender/thegreatsuspender) (please review the User Guide under Options for configuration instructions).
 
