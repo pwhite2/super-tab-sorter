@@ -12,7 +12,7 @@ In addition to standard URL or title-based sorting, its "killer features" are:
 4. Optional dedupe while sorting.
 5. User configurable sort behavior for handling tabs suspended by extensions derived from [The Great Suspender](https://github.com/greatsuspender/thegreatsuspender) (please review the User Guide under Options for configuration instructions).
 
-Please [report bugs or suggest features](https://github.com/pwhite2/super-tab-sorter/issues/)  if you have problems or ideas for this extension. Please check the User Guide on the Options page before doing that.  Also, keep in mind that this extension sorts tabs, not manages them. Tab management is not what I do, so look for another extension if you need that.
+Please [report bugs or suggest features](https://github.com/pwhite2/super-tab-sorter/issues/)  if you have problems or ideas for this extension. Please check the User Guide on the Options page before doing that.  Also, keep in mind that this extension sorts tabs, it doesn't "manage" them. Tab management is not what I do, so look for another extension if you need that.
 
 I can be contacted via the contact form at [peterwhite.net](https://peterwhite.net) for other inquiries.
 
